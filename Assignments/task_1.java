@@ -23,7 +23,7 @@ class Person {
         return age;
     }
 }
-
+// this is the main function
 public class task_1 {
     public static void main(String[] args) {
         // create two instances of person class
