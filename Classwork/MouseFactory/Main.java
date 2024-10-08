@@ -7,3 +7,5 @@ public class Main {
             M1.scrollUp();
         }
 }
+
+// this is hierachical inheritance
