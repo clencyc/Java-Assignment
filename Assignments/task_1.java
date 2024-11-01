@@ -18,7 +18,6 @@ class Person {
     public String getNAme() {
         return name;
     }
-
     public int getAge() {
         return age;
     }
@@ -27,11 +26,7 @@ class Person {
 public class task_1 {
     public static void main(String[] args) {
         // create two instances of person class
-        Person person1 = new Person("Alice", 35);
-        Person person2 = new Person("Bob", 25);
-
+        Person person1 = new Person("John", 23);
         System.out.println("Name: " + person1.getNAme() + ", Age: " + person1.getAge());
-        System.out.println("Name: " + person2.getNAme() + ", Age: " + person2.getAge());
-
-    }
+  }
 }

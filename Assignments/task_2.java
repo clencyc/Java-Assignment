@@ -31,4 +31,15 @@ class Dog {
     public void setBreed(String breed) {
         this.breed = breed;
     }
+
+    public static void main(String[] args) {
+        Dog dog1 = new Dog("Bosco", "Chiwawa");
+
+        System.out.println("Name:" + dog1.getName() + "Breed:" + dog1.getBreed());
+
+        dog1.setName("Helios");
+        dog1.setBreed("Husky");
+        System.out.println("Name:" + dog1.getName() + " Breed:" + dog1.getBreed());
+    }
 }
+

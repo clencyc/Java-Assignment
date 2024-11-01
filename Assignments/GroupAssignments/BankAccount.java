@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 // Abstract class for Bank Account defining the operations
 abstract class ATM {
     public abstract void withDraw(double withdawalamount);
@@ -11,7 +9,7 @@ abstract class ATM {
 // this is inheritance
 class SimpleATM extends ATM {
 
-    private double balance = 12000.34;
+    private double balance = 12000.34; // double takes 15 dps while float takes 7 dps
 
     // Implement withdraw method
     public void withDraw(double withdrawalamount) {
@@ -48,4 +46,3 @@ class SimpleATM extends ATM {
         System.out.println("Thank you for choosing us!");
     }
 }
-
